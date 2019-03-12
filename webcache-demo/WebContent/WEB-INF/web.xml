@@ -7,6 +7,12 @@
 
   </welcome-file-list>
   
+  <listener>
+	<listener-class>
+             com.demo.listener.MyAppListener 
+        </listener-class>
+   </listener>
+  
   
   <filter>
     <filter-name>RequestLoggingFilter</filter-name>
